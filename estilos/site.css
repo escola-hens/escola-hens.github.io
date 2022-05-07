@@ -4,6 +4,4 @@ p {
     border: 3px solid gray;
 }
 
-p, li, h1 {
-    color: red;
-}
+/*A ordem dos fatores altera o produto*/
