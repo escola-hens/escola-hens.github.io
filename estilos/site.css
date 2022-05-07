@@ -1,0 +1,9 @@
+p {
+    color: blue;
+    width: 300px;
+    border: 3px solid gray;
+}
+
+p, li, h1 {
+    color: red;
+}
