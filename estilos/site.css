@@ -3,5 +3,11 @@ p {
     width: 300px;
     border: 3px solid gray;
 }
+div { color: purple;
+    width: 300px;
+    border: 3px solid gray;
+}
+
+
 
 /*A ordem dos fatores altera o produto*/
