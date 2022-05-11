@@ -3,9 +3,16 @@ p {
     width: 500px;
     border: 3px solid gray;
 }
-div { color: purple;
-    width: 300px;
+
+div {
+    color: purple;
+    width: 500px;
     border: 3px solid gray;
+}
+
+.font-ulisses {
+    font-family: 'Creepster', cursive;
+    font-size: 22px;
 }
 
 
