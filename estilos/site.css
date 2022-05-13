@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 p {
     color: blue;
     width: 500px;
@@ -9,14 +11,18 @@ div {
     width: 500px;
     border: 3px solid gray;
 }
-li2 { color: rgb(231, 27, 61);
-
- }
 
 .font-ulisses {
     font-family: 'Creepster', cursive;
     font-size: 22px;
 }
+
+.font-bia {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+
 
 
 
