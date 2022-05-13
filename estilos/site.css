@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+/*Fonte Ulisses*/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 p {
     color: blue;
     width: 500px;
@@ -15,7 +19,10 @@ div {
     font-family: 'Creepster', cursive;
     font-size: 22px;
 }
-
+.font-gustavo {
+    font-family: 'Water Brush', cursive;
+    font-size: 25px;
+}
 
 
 /*A ordem dos fatores altera o produto*/
