@@ -10,6 +10,7 @@ div {
     border: 3px solid gray;
 }
 
+/*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
     font-family: 'Creepster', cursive;
     font-size: 22px;
