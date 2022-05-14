@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
 p {
     color: blue;
     width: 500px;
@@ -27,13 +29,15 @@ div {
     font-size: 20px;
 }
 
-
-
 .font-gustavo {
     font-family: 'Water Brush', cursive;
     font-size: 25px;
 }
 
+.font-kayo {
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 29px;
+}
 
 /*A ordem dos fatores altera o produto*/
 
