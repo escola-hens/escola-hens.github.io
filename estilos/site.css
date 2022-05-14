@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+/*Fonte Ulisses*/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 p {
     color: blue;
@@ -12,6 +15,7 @@ div {
     border: 3px solid gray;
 }
 
+/*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
     font-family: 'Creepster', cursive;
     font-size: 22px;
@@ -24,6 +28,10 @@ div {
 
 
 
+.font-gustavo {
+    font-family: 'Water Brush', cursive;
+    font-size: 25px;
+}
 
 
 /*A ordem dos fatores altera o produto*/
