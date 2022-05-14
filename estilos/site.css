@@ -3,6 +3,7 @@
 /*Fonte Ulisses*/
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 p {
     color: blue;
     width: 500px;
@@ -35,3 +36,8 @@ div {
 
 
 /*A ordem dos fatores altera o produto*/
+
+.font-caio {
+    font-family: 'Courgette', cursive;
+    font-size: 17px;
+} 
