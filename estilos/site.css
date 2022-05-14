@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 /*Fonte Ulisses*/
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
@@ -19,6 +20,14 @@ div {
     font-family: 'Creepster', cursive;
     font-size: 22px;
 }
+
+.font-bia {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+
+
 .font-gustavo {
     font-family: 'Water Brush', cursive;
     font-size: 25px;
