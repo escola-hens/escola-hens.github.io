@@ -8,8 +8,15 @@
 
 nav, footer {
     text-align: center;
+    letter-spacing: 3px;
+    line-height: 42px;
+    background-color:royalblue;
+    color: white;
 }
 
+a {
+    color: white;
+}
 /*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
     font-family: 'Creepster', cursive;
