@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 
 nav, footer {
     text-align: center;
@@ -44,5 +45,12 @@ a {
     font-family: 'Courgette', cursive;
     font-size: 17px;
 } 
+
+.font-nata{
+    font-family: 'Smooch', cursive;
+    font-size: 50px;
+    background-color: aquamarine;
+    letter-spacing: 3px;
+}
 
 /*A ordem dos fatores altera o produto*/
