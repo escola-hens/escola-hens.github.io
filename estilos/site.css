@@ -41,7 +41,15 @@ a {
 
 .font-gustavo {
     font-family: 'Water Brush', cursive;
-    font-size: 25px;
+    font-size: 30px;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+}
+
+.font-gustavo > li > p {
+    background-color: black;
+    border: 3px solid royalblue;
 }
 
 .font-kayo {
