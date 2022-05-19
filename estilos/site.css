@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 
 nav, footer {
     text-align: center;
@@ -19,37 +20,18 @@ a {
 }
 /*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
-    text-align: center;
-    color: green;
     font-family: 'Creepster', cursive;
-    font-size: 42px;
-    letter-spacing: 3px;
-    border: 6px solid rgb(133, 9, 9);
-    background-color: yellowgreen;
+    font-size: 22px;
 }
 
 .font-bia {
-    text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    border: 1px solid black;
-}
-
-.ponto-dento {
-    list-style-position: inside;
 }
 
 .font-gustavo {
     font-family: 'Water Brush', cursive;
-    font-size: 30px;
-    text-align: center;
-    list-style-type: none;
-    color: white;
-}
-
-.font-gustavo > li > p {
-    background-color: black;
-    border: 3px solid royalblue;
+    font-size: 25px;
 }
 
 .font-kayo {
@@ -63,5 +45,12 @@ a {
     font-family: 'Courgette', cursive;
     font-size: 17px;
 } 
+
+.font-nata{
+    font-family: 'Smooch', cursive;
+    font-size: 50px;
+    background-color: aquamarine;
+    letter-spacing: 3px;
+}
 
 /*A ordem dos fatores altera o produto*/
