@@ -15,6 +15,13 @@ nav, footer {
     color: white;
 }
 
+main { 
+    text-align: center;
+    border: 5px solid rgb(243, 11, 100);
+    background-color: blanchedalmond;
+
+}
+
 a {
     color: white;
 }
