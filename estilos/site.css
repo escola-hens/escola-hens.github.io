@@ -13,16 +13,18 @@ nav  {
     letter-spacing: 3px;
     font-size: 48px;
     line-height: 72px;
-    background-color:royalblue;
     font-family: 'Creepster', cursive;
-    color: white;
+    color: #64dd17;
+    background-color:#ae52d4;
+}
+
+body {
+    background-color: #4a0072;
 }
 
 main { 
     text-align: center;
-    border: 5px solid rgb(243, 11, 100);
-    background-color: blanchedalmond;
-
+    padding-top: 1em;
 }
 
 footer{
@@ -30,13 +32,16 @@ footer{
     text-align: center;
     letter-spacing: 3px;
     line-height: 42px;
-    background-color:royalblue;
+    font-size: 27px;
+    background-color:#ae52d4;
     color: white;
 }
 
-a {
-    color: white;
+nav > a {
+    color: #64dd17;
+    text-decoration: none;
 }
+
 /*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
     text-align: center;
@@ -44,15 +49,12 @@ a {
    
     font-size: 42px;
     letter-spacing: 3px;
-    border: 6px solid rgb(133, 9, 9);
-    background-color: yellowgreen;
 }
 
 .font-bia {
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 20px;
-    border: 1px solid black;
 }
 
 .ponto-dento {
@@ -69,7 +71,6 @@ a {
 
 .font-gustavo > li > p {
     background-color: black;
-    border: 3px solid royalblue;
 }
 
 .font-kayo {
@@ -90,6 +91,9 @@ a {
 .font-nata{
     font-family: 'Smooch', cursive;
     font-size: 50px;
-    background-color: aquamarine;
     letter-spacing: 3px;
+}
+
+.selecionado{
+    font-size: 72px;
 }
