@@ -7,7 +7,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 
+nav, footer {
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 42px;
+    background-color:royalblue;
+    color: white;
+}
 
+main { 
+    text-align: center;
+    border: 5px solid rgb(243, 11, 100);
+    background-color: blanchedalmond;
+
+}
+
+a {
+    color: white;
+}
 /*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
     text-align: center;
