@@ -8,36 +8,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 
-nav  {
+nav {
     text-align: center;
     letter-spacing: 3px;
     font-size: 48px;
     line-height: 72px;
     font-family: 'Creepster', cursive;
     color: #64dd17;
-    background-color:#ae52d4;
+    background-color: #ae52d4;
 }
 
 body {
+    margin: 0;
     background-color: #4a0072;
 }
 
-main { 
+main {
+    padding-top: 30px;
+    border: 30px solid rgb(68, 167, 233);
+    background-color: aquamarine;
     text-align: center;
-    padding-top: 1em;
 }
 
-footer{
+footer {
     font-family: 'Rajdhani', sans-serif;
     text-align: center;
     letter-spacing: 3px;
     line-height: 42px;
     font-size: 27px;
-    background-color:#ae52d4;
+    background-color: #ae52d4;
     color: white;
 }
 
-nav > a {
+nav>a {
     color: #64dd17;
     text-decoration: none;
 }
@@ -46,7 +49,7 @@ nav > a {
 .font-ulisses {
     text-align: center;
     color: green;
-   
+
     font-size: 42px;
     letter-spacing: 3px;
 }
@@ -69,7 +72,7 @@ nav > a {
     color: white;
 }
 
-.font-gustavo > li > p {
+.font-gustavo>li>p {
     background-color: black;
 }
 
@@ -78,22 +81,24 @@ nav > a {
     font-size: 29px;
 }
 
-/*A ordem dos fatores altera o produto*/
+/*A ordem dos fatores não altera o produto*/
 
 .font-caio {
     font-family: 'Courgette', cursive;
     font-size: 17px;
-} 
+}
 
-/*A ordem dos fatores altera o produto*/
+/*A ordem dos fatores não altera o produto*/
 
 
-.font-nata{
+.font-nata {
     font-family: 'Smooch', cursive;
     font-size: 50px;
     letter-spacing: 3px;
 }
 
-.selecionado{
+.selecionado {
     font-size: 72px;
+    letter-spacing: 12px;
+    color: white;
 }
