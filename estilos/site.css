@@ -19,10 +19,14 @@ nav {
 }
 
 body {
+    margin: 0;
     background-color: #4a0072;
 }
 
 main {
+    padding-top: 30px;
+    border: 30px solid rgb(68, 167, 233);
+    background-color: aquamarine;
     text-align: center;
 }
 
