@@ -24,9 +24,8 @@ body {
 }
 
 main {
-    padding-top: 30px;
-    border: 30px solid rgb(68, 167, 233);
-    background-color: aquamarine;
+    padding: 30px 0px;
+    background-color: #7fffd4;
     text-align: center;
 }
 
@@ -40,7 +39,13 @@ footer {
     color: white;
 }
 
-nav>a {
+.selecionado {
+    font-size: 72px;
+    letter-spacing: 12px;
+    color: white;
+}
+
+nav>div>a {
     color: #64dd17;
     text-decoration: none;
 }
@@ -48,7 +53,7 @@ nav>a {
 /*quando tem . significa que é o seletor de uma classe*/
 .font-ulisses {
     text-align: center;
-    color: green;
+    color: #64dd17;
 
     font-size: 42px;
     letter-spacing: 3px;
@@ -57,19 +62,21 @@ nav>a {
 .font-bia {
     text-align: center;
     font-family: 'Lobster', cursive;
-    font-size: 20px;
+    font-size: 52px;
 }
 
 .ponto-dento {
     list-style-position: inside;
+    list-style-type: none;
 }
 
 .font-gustavo {
     font-family: 'Water Brush', cursive;
-    font-size: 30px;
+    font-size: 48px;
     text-align: center;
     list-style-type: none;
     color: white;
+    padding-inline-start: 0px;
 }
 
 .font-gustavo>li>p {
@@ -79,6 +86,7 @@ nav>a {
 .font-kayo {
     font-family: 'Rubik Glitch', cursive;
     font-size: 29px;
+    text-shadow: 2px 4px 6px #3a3a3a;
 }
 
 /*A ordem dos fatores não altera o produto*/
@@ -95,10 +103,4 @@ nav>a {
     font-family: 'Smooch', cursive;
     font-size: 50px;
     letter-spacing: 3px;
-}
-
-.selecionado {
-    font-size: 72px;
-    letter-spacing: 12px;
-    color: white;
 }
