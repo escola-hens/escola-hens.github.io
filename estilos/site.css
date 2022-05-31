@@ -106,3 +106,6 @@ nav>div>a {
     font-size: 50px;
     letter-spacing: 3px;
 }
+main>img{
+    border: 5px solid #3a3a3a;
+}
