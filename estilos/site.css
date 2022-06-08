@@ -89,6 +89,8 @@ nav>div>a {
     text-shadow: 2px 4px 6px #3a3a3a;
 }
 
+#meu-elemento {}
+
 /*A ordem dos fatores não altera o produto*/
 
 .font-caio {
@@ -99,7 +101,7 @@ nav>div>a {
 /*A ordem dos fatores não altera o produto*/
 
 
-.font-nata {
+.font-natan {
     font-family: 'Smooch', cursive;
     font-size: 50px;
     letter-spacing: 3px;
