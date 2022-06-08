@@ -25,8 +25,10 @@ body {
 
 main {
     padding: 30px 0px;
+    border: 10px solid #ae52d4;
     background-color: #7fffd4;
     text-align: center;
+    margin: 30px;
 }
 
 footer {
@@ -105,4 +107,7 @@ nav>div>a {
     font-family: 'Smooch', cursive;
     font-size: 50px;
     letter-spacing: 3px;
+}
+main>img{
+    border: 5px solid #3a3a3a;
 }
