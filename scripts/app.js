@@ -1,10 +1,29 @@
-let minhaImagem = document.querySelector('img');
+let banner = document.querySelector('img');
 
-minhaImagem.onclick = function() {
-    let meuSrc = minhaImagem.getAttribute('src');
-    if(meuSrc === 'imagens/tarde-neve.png') {
-      minhaImagem.setAttribute ('src','imagens/tarde-neve2.jpg');
+banner.onclick = function () {
+    let meuSrc = banner.getAttribute('src');
+    console.log(meuSrc);
+    if (meuSrc === 'imagens/tarde-neve.png') {
+        banner.setAttribute('src', 'imagens/tarde-neve2.jpg');
     } else {
-      minhaImagem.setAttribute ('src','imagens/tarde-neve.png');
+        banner.setAttribute('src', 'imagens/tarde-neve.png');
     }
+}
+
+let meuBotao = document.querySelector('button');
+let meuCabecalho = document.querySelector('h3');
+
+function defineNomeUsuario() {
+    let meuNome = prompt('Por favor, digite seu nome.');
+    if(meuNome){
+        localStorage.setItem('nome', meuNome);
+        meuCabecalho.textContent = 'Permaneça na paz, ' + meuNome;
+    }
+}
+
+if (localStorage.getItem('nome')) {
+    let nomeGuardado = localStorage.getItem('nome');
+    meuCabecalho.textContent = 'Permaneça na paz, ' + nomeGuardado;
+} else {
+    defineNomeUsuario();
 }
