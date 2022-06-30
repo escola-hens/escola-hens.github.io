@@ -1,4 +1,6 @@
 let banner = document.querySelector('img');
+let meuBotao = document.querySelector('#mudar-usuario');
+let meuCabecalho = document.querySelector('h3');
 
 banner.onclick = function () {
     let meuSrc = banner.getAttribute('src');
@@ -10,12 +12,13 @@ banner.onclick = function () {
     }
 }
 
-let meuBotao = document.querySelector('button');
-let meuCabecalho = document.querySelector('h3');
+meuBotao.onclick = function() { 
+    defineNomeUsuario();
+}
 
 function defineNomeUsuario() {
     let meuNome = prompt('Por favor, digite seu nome.');
-    if(meuNome){
+    if(meuNome || meuNome !== null){
         localStorage.setItem('nome', meuNome);
         meuCabecalho.textContent = 'Permaneça na paz, ' + meuNome;
     }
