@@ -9,29 +9,34 @@
   <style>
     * {
       margin: 0;
-      padding:0;
+      padding: 0;
     }
 
     .appbar {
       background-color: red;
-      color:rgb(17, 14, 14);
+      color: rgb(17, 14, 14);
       height: 2.4rem;
+      position:fixed;
+      width: 100%;
     }
 
     .sidenav {
       background-color: brown;
-      color:white;
+      color: white;
       height: calc(100vh - 5.1rem);
       width: 30%;
       float: left;
+      margin-top: 2.4rem;
+      position: fixed;
     }
 
     .content {
+      margin-left: 30%;
       background-color: green;
-      color:white;
-      height: calc(100vh - 5.1rem);
-      width:70%;
+      color: white;
+      width: 70%;
       float: left;
+      margin-top: 2.4rem;
     }
 
     footer {
@@ -39,6 +44,22 @@
       color: white;
       height: 2.7rem;
       clear: both;
+    }
+
+    .item {
+      width: 150px;
+      height: 135px;
+      background-color: aqua;
+      float: left;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    .positioned {
+      background-color:blue;
+      position: fixed;
+      bottom: 40px;
+      right: 10px;
     }
   </style>
 </head>
@@ -48,7 +69,29 @@
     Appbar
   </nav>
   <nav class="sidenav">Sidenav</nav>
-  <section class="content">Conteúdo</section>
+  <section class="content">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item positioned">12</div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </section>
   <footer>Footer</footer>
 </body>
 
