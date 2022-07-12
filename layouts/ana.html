@@ -12,10 +12,29 @@
             padding: 0;
         }
 
+
+
+        body {
+            height: 300vh;
+        }
+
+        .item {
+            background-color: #DB0000;
+            width: 150px;
+            height: 135px;
+            border: solid black;
+            float: left;
+            margin: 15px;
+            position: relative;
+            z-index: 2;
+
+        }
+
         nav {
             height: 56px;
-
             background: #777777;
+
+
         }
 
         sidebar {
@@ -36,23 +55,41 @@
 
         main {
             height: 100vh;
-
             background: #476AC4;
-             
             width: 60%;
             float: left;
+            position: relative;
         }
 
         footer {
 
             height: 65px;
-            background: #DB0000;
+            background: #f1a3a3;
             clear: both;
+        }
+
+        .adesivo {
+            background-color: #A0F482;
+            border-radius: 10px;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 10px;
+            z-index: 1;
+
+
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: aqua;
+            top: 10px;
         }
     </style>
 </head>
 
 <body>
+
+
 
     <nav>
         appbar
@@ -63,7 +100,18 @@
 
     </sidebar>
     <main>
-        conteudo
+
+        <div class="item">1</div>
+        <div class="item adesivo">2</div>
+        <div class="absolute item">3</div>
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+
+
     </main>
 
     <asidebar>
