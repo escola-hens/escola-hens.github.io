@@ -9,29 +9,39 @@
   <style>
     * {
       margin: 0;
-      padding:0;
+      padding: 0;
     }
+
 
     .appbar {
       background-color: red;
-      color:rgb(17, 14, 14);
+      color: rgb(17, 14, 14);
       height: 2.4rem;
+      position: fixed;
+      width: 100%;
+      z-index: 3;
     }
 
-    .sidenav {
+    aside {
       background-color: brown;
-      color:white;
-      height: calc(100vh - 5.1rem);
+      color: white;
+      height: 100%;
       width: 30%;
       float: left;
+      margin-top: 2.4rem;
+      position: fixed;
     }
 
-    .content {
+    main {
+      margin-left: 30%;
       background-color: green;
-      color:white;
-      height: calc(100vh - 5.1rem);
-      width:70%;
+      color: white;
+      width: 70%;
       float: left;
+      margin-top: 2.4rem;
+      position: relative;
+      min-height: calc(100vh - 2.4rem);
+      z-index: 2;
     }
 
     footer {
@@ -39,6 +49,45 @@
       color: white;
       height: 2.7rem;
       clear: both;
+      width: 100%;
+      position: relative;
+      z-index: 3;
+    }
+
+    section {
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+      float: left;
+      border-radius: 25px;
+      padding: 12px;
+      color: black;
+      margin: 10px;
+    }
+
+    .absolute {
+      background-color: blue;
+      position: absolute;
+      bottom: 0px;
+      right: 10px;
+    }
+
+    .sticky {
+      position: sticky;
+      top: calc(10px + 2.4rem);
+      background-color: blueviolet;
+    }
+
+    .sticky2 {
+      position: sticky;
+      top: calc(10px + 2.4rem);
+      background-color: darkorange;
+    }
+
+    .qqc:hover { 
+      background: gold; 
+      position: relative;
+      top: calc(10px + 2.4rem);
     }
   </style>
 </head>
@@ -47,8 +96,26 @@
   <nav class="appbar">
     Appbar
   </nav>
-  <nav class="sidenav">Sidenav</nav>
-  <section class="content">Conteúdo</section>
+  <aside>Sidenav</aside>
+  <main>
+    <section>1</section>
+    <section>2</section>
+    <section class="sticky2">3</section>
+    <section>4</section>
+    <section class="sticky"></section>
+    <section></section>
+    <section></section>
+    <section class="qqc">Passe o mouse</section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section class="absolute">12</section>
+    <section></section>
+    <section></section>
+  </main>
   <footer>Footer</footer>
 </body>
 

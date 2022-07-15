@@ -111,3 +111,34 @@ nav>div>a {
 main>img{
     border: 5px solid #3a3a3a;
 }
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  li > a:link {
+    color: #4a02ff;
+  }
+  
+  li > a:visited {
+    color: #78f710;
+  }
+  
+  li > a:focus {
+    border-bottom: 5px dotted;
+    background: #BAE498;
+  }
+  
+  li > a:hover {
+    border-bottom: 5px solid;
+    background: #CDFEAA;
+  }
+  
+  li > a:active {
+    background: #265301;
+    color: #CDFEAA;
+    position: relative;
+    top:30px;
+  }
