@@ -17,12 +17,12 @@
       background-color: red;
       color: rgb(17, 14, 14);
       height: 2.4rem;
-      position:fixed;
+      position: fixed;
       width: 100%;
       z-index: 3;
     }
 
-    .sidenav {
+    aside {
       background-color: brown;
       color: white;
       height: 100%;
@@ -32,14 +32,14 @@
       position: fixed;
     }
 
-    .content {
+    main {
       margin-left: 30%;
       background-color: green;
       color: white;
       width: 70%;
       float: left;
       margin-top: 2.4rem;
-      position:relative;
+      position: relative;
       min-height: calc(100vh - 2.4rem);
       z-index: 2;
     }
@@ -54,32 +54,34 @@
       z-index: 3;
     }
 
-    .item {
-      width: 150px;
-      height: 135px;
+    section {
+      width: 100px;
+      height: 100px;
       background-color: aqua;
       float: left;
-      border-radius: 10px;
+      border-radius: 25px;
+      padding: 12px;
+      color: black;
       margin: 10px;
     }
 
-    .positioned {
-      background-color:blue;
+    .absolute {
+      background-color: blue;
       position: absolute;
-      bottom: 10px;
+      bottom: 0px;
       right: 10px;
     }
 
     .sticky {
-      position:sticky;
+      position: sticky;
       top: calc(10px + 2.4rem);
-      background-color:blueviolet;
+      background-color: blueviolet;
     }
 
     .sticky2 {
-      position:sticky;
+      position: sticky;
       top: calc(10px + 2.4rem);
-      background-color:darkorange;
+      background-color: darkorange;
     }
   </style>
 </head>
@@ -88,40 +90,26 @@
   <nav class="appbar">
     Appbar
   </nav>
-  <nav class="sidenav">Sidenav</nav>
-  <section class="content">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item"></div>
-    <div class="item sticky"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item sticky2"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item"></div>
-    <div class="item positioned">12</div>
-    <div class="item"></div>
-    <div class="item"></div>
-  </section>
+  <aside>Sidenav</aside>
+  <main>
+    <section>1</section>
+    <section>2</section>
+    <section class="sticky2">3</section>
+    <section>4</section>
+    <section class="sticky"></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section class="absolute">12</section>
+    <section></section>
+    <section></section>
+  </main>
   <footer>Footer</footer>
 </body>
 
