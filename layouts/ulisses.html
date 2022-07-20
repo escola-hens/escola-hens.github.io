@@ -55,7 +55,7 @@
     }
 
     section {
-      width: 100px;
+      width: 200px;
       height: 100px;
       background-color: aqua;
       float: left;
@@ -84,10 +84,24 @@
       background-color: darkorange;
     }
 
-    .qqc:hover { 
-      background: gold; 
+    .qqc:hover {
+      background: gold;
       position: relative;
       top: calc(10px + 2.4rem);
+    }
+
+    .block {
+      display: block;
+      background-color: black;
+      color: white;
+      height: 52px;
+      border: 2px solid white;
+      min-height: 52px;
+    }
+
+    .inline {
+      display: inline;
+      color: blue;
     }
   </style>
 </head>
@@ -98,9 +112,19 @@
   </nav>
   <aside>Sidenav</aside>
   <main>
-    <section>1</section>
-    <section>2</section>
-    <section class="sticky2">3</section>
+    <section>
+      <span class="block">display block
+        <p class="inline">eu não sou um span</p></span>
+    </section>
+    <section>
+      <p>display block
+        <span>eu sou um span</span>
+      </p>
+    </section>
+    <section class="sticky2">
+      <p>display block
+        <p>eu não sou um span</p></p>
+    </section>
     <section>4</section>
     <section class="sticky"></section>
     <section></section>
