@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding:0px;
+}
+.left {
+    width: 45%;
+    max-width: 45%;
+    background: 
+        linear-gradient(rgba(21, 101, 216, 0.9),rgba(0, 0, 0, 0.9)),
+        url('./imagens//background.jpeg');
+    height: 100vh;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    width: 55%;
+    max-width: 55%;
+    background-color: gray;
+    height: 100vh;
+    float: right;
+}
+
+.logo{
+    margin-top: 64px;
+}
+
+.logo > p {
+    display: inline;
+    color:white;
+    font-size: 16px;
+}
