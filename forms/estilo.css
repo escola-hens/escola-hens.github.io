@@ -17,7 +17,7 @@
 .right {
     width: 55%;
     max-width: 55%;
-    background-color: gray;
+    background-color: #FFF;
     height: 100vh;
     float: right;
 }
@@ -30,4 +30,39 @@
     display: inline;
     color:white;
     font-size: 16px;
+}
+
+.descricao {
+    margin-top: 276px;
+    color: white;
+}
+
+.artigo {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.autor {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.pontuacao {
+    font-size: 96px;
+    color: #00DAF7;
+    position: relative;
+    top: 30px;
+}
+
+.canto {
+    display: block;
+    margin-top: 35px;
+    margin-left: auto;
 }
