@@ -8,6 +8,7 @@
 </head>
 <body>
     <section class="left">
+        <section class="containerLeft">
             <section class="logo"><img src="./img/elipse.svg" alt="Logo Oasis"></section>
             <section class="oasis"><p>Oasis.</p></section>
             <section class="aspas"><img src="./img/aspas.svg" alt="Aspas"></section>
@@ -16,43 +17,36 @@
             <section class="certo"><img src="./img/icon_ok.svg" alt="Ícone de ok"></section>
             <section class="cantoL"><img src="./img/canto_L.svg" alt="Canto L"></section>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+    </section>        
     <section class="right">
-        <section class="back"><a href="">< Back</a></section>
-        <section class="step"><p>STEP 01/03<br>Personal Info.</p></section>
-        <section class="register"><p>Register Individual Account!<br>For the porpuse of industry regulaion, your details are required.</p></section>
-        <section class="form">
-            <form action="/pagina-processa-dados-do-form" method="post">
-                <div>
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome"/>
-                </div>
-                <div>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email"/>
-                </div>
-                <div>
-                    <label for="password">Password:</label>
-                    <input type="password" id="password">
-                </div>
-                <div class="button">
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </section>
+        <section class="containerRight">
+            <section class="back"><a href=""><p>&#60;Back</p></a></section>
+            <section class="step">STEP 01/03</section>
+            <section class="personal">Personal Info.</section>
+            <section class="register"><h1>Register Individual Account!</h1></section>
+            <section class="for">For the porpuse of industry regulaion, your<br>details are required.</section>
+            <section class="form">
+                <form action="/pagina-processa-dados-do-form" method="post">
+                    <div>
+                        <label for="nome">Nome*</label>
+                        <input type="text" id="nome"/>
+                    </div>
+                    <div>
+                        <label for="email">E-mail*</label>
+                        <input type="email" id="email"/>
+                    </div>
+                    <div>
+                        <label for="password">Password*</label>
+                        <input type="password" id="password">
+                    </div>
+                </form>
+            </section>
+            <section class="checkbox">
+                    <input type="checkbox" id="termos" nome="termos" value="termos">
+                    <label for="termos">I agree to terms & conditions</label>
+            </section>
+            <section><button class="button" type="submit"><p>Register Account</p></button></section>  
+    </section>
     </section>
     
 </body>
