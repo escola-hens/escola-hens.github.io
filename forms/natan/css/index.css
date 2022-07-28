@@ -7,49 +7,96 @@
 .left {
     color: white;
     background-color: blue;
-    float: left;
-    width: 35%;
-    height: 100vh;
+    position: absolute;
+    width: 666px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
 
 }
-.container{
-    display: inline-block;
-}
 .logo{
-    width: 30px;
+    position: absolute;
+    width: 43.6px;
     height: 30px;
-    display: inline;
-    position: relative;
-    top: 64px;
-    left: 71.52px;
+    left: 82px;
+    top: 94px;
 }
-.logo p{
-    display: inline-block;
+.oasis{
+    position: absolute;
+    width: 46px;
+    height: 19px;
+    left: 136px;
+    top: 106px;
+
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
     font-size: 16px;
+    line-height: 19px;
 }
+
 .aspas{
-    position: relative;
+    position: absolute;
+    width: 28px;
+    height: 117px;
+    left: 82px;
     top: 330px;
-    left: 82px;
+
+    font-family: 'Gayathri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+
+    color: #00DAF7;
 }
-.text p{
-    position: relative;
-    top: 370px;
-    left: 82px;
+.text{
+    position: absolute;
     width: 473px;
+    height: 190px;
+    left: 82px;
+    top: 430px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 38px;
+
+    color: #FFFFFF;   
 }
-.text img{
-    position: relative;
-    top: 343px;
-    left: 175px;
+.text2{
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 82px;
+    top: 582px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.certo{
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    left: 165px;
+    top: 585px;
+
 }
 .cantoL{
-    position: relative;
-    top: 350px;
-    left: 484px;
+    position: absolute;
+    width: 33.5px;
+    height: 33px;
+    left: 517.5px;
+    top: 639px;
 }
+
+
+
 
 .right{
     text-decoration: none;
