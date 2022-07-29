@@ -7,12 +7,11 @@
 .left {
     text-decoration: none;
     color: white;
-    background-color: blue;
     float: left;
     width: 45%;
     max-width: 45%;
     height: 100vh;
-    background: linear-gradient(rgba(21, 101, 216, 0.9),rgba(0, 0, 0, 0.9)), url("./img/backgroun_predio.jpeg");
+    background: linear-gradient(rgba(21, 101, 216, 0.9),rgba(0, 0, 0, 0.9)), url('../img/background_predio.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 
