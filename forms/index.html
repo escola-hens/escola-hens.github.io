@@ -12,26 +12,60 @@
             margin-left: 120px;
         }
 
-        .conta{
+        .conta {
             margin-top: 70px;
             float: right;
             margin-right: 70px;
             font-size: 18px;
             line-height: 28px;
         }
-        
-        .conta > p {
+
+        .conta>p {
             display: inline-block;
-            color:#8692A6;
+            color: #8692A6;
         }
 
-        .conta > a {
-            color:rgba(21, 101, 216, 1);
+        .conta>a {
+            color: rgba(21, 101, 216, 1);
             text-decoration: none;
         }
 
         .junte-se {
-            clear:right;
+            clear: right;
+            padding-top: 135px;
+        }
+
+        .junte-se h1 {
+            font-size: 2em;
+        }
+
+        .junte-se p {
+            font-size: 18px;
+            line-height: 28px;
+            color: #8692A6;
+            width: 426px;
+            padding-top: 10px;
+        }
+
+        .card:hover {
+            border: 1px solid #1565D8;
+            background: #F5F9FF;
+            cursor: pointer;
+        }
+        
+        .card {
+            margin-top: 35px;
+            border: 1px solid transparent;
+            padding: 22px;
+            border-radius: 6px;
+            width: 426px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+        }
+
+        .card .card-body {
+            display: inline-block;
+            padding-left: 22px;
         }
     </style>
 </head>
@@ -61,20 +95,26 @@
                 <a href="#">Sign In</a>
             </section>
             <section class="junte-se">
-                <h2>Join Us!</h2>
+                <h1>Join Us!</h1>
                 <p>To begin this journey, tell us what type of account you’d be opening.</p>
             </section>
-            <section>
-                <section>
+            <section class="container-card">
+
+                <section class="card">
                     <img src="./imagens/user.svg" alt="icone da conta pessoal">
-                    <h4>Individual</h4>
-                    <p>Personal account to manage all you activities.</p>
-                    <img src="" alt="">
+                    <div class="card-body">
+                        <h4>Individual</h4>
+                        <p>Personal account to manage all you activities.</p>
+                    </div>
+                    <img src="./imagens/seta_direita.svg" alt="">
                 </section>
-                <section>
+
+                <section class="card">
                     <img src="./imagens/business.svg" alt="icone da conta empresarial">
-                    <h4>Business</h4>
-                    <p>Own or belong to a company, this is for you.</p>
+                    <div class="card-body">
+                        <h4>Business</h4>
+                        <p>Own or belong to a company, this is for you.</p>
+                    </div>
                 </section>
             </section>
         </section>
