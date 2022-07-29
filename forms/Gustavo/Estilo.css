@@ -51,7 +51,8 @@
 }
 
 .descricao {
-    margin-top: 80px;
+    margin-top: 37px;
+    width: 473px;
     color: white;
 }
 
@@ -77,4 +78,119 @@
     bottom: 0;
     position: absolute;
 
+}
+
+.container-right {
+    margin-left: 120px;
+    margin-top: 75px;
+}
+
+.back p {
+    display: inline-block;
+    color: #8692A6;
+    width: 39px;
+    height: 19px;
+    font-weight: 600;
+    margin-left: -50px;
+}
+
+.seta-back {
+    float: left;
+    margin-left: -70px;
+}
+
+.verification {
+    margin-top: -18px;
+}
+
+.verification p {
+    line-height: 17px;
+    margin-left: 500px;
+    color: #BDBDBD;
+}
+
+.verification h1 {
+    margin-left: 460px;
+    color: #8692A6;
+}
+
+.profile {
+    margin-top: 100px;
+}
+
+.profile h1 {
+    font-size: 2em
+}
+
+.profile p {
+    line-height: 10px;
+    max-width: 320px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #8692A6;
+}
+
+.profile h4 {
+    margin-top: 40px;
+    color: #696F79;
+}
+
+.card {
+    margin-top: 14px;
+    padding: 22px;
+    padding-top: 30px;
+    padding-right: 292px;
+    background: #FFFFFF;
+    border: 1px solid #1565D8;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.card:hover {
+    border: 1px solid #1565D8;
+    background: #F5F9FF;
+    cursor: pointer;
+}
+
+.card p {
+    margin-top: -10px;
+    color: #494949;
+    line-height: 17px;
+}
+
+.check {
+    display: inline-block;
+    margin-left: -50px;
+}
+
+.finish {
+    background: #1565D8;
+    border-radius: 6px;
+    width: 415px;
+    height: 64px;
+    margin-top: 94px;
+}
+
+.finish:hover {
+    border: 0px solid #076eff;
+    background: #006aff;
+    cursor: pointer;
+}
+
+.finish p {
+    display: inline-block;
+    color: white;
+    margin-left: 150px;
+    margin-top: 23px;
+}
+
+.security {
+    margin-top: 29px;
+    margin-left: 100px;
+}
+
+.security p {
+    display: inline-block;
+    color: #8692A6;
 }
