@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.esquerda {
+    width: 45%;
+    max-width: 45%;
+    height: 100vh;
+    float: left;
+    background:
+        linear-gradient(rgba(21, 101, 216, 0.9), rgba(0, 0, 0, 0.9)),
+        url('./Imagens//background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.direita {
+    width: 55%;
+    max-width: 55%;
+    height: 100vh;
+    float: right;
+    background-color: white;
+}
+
+.container {
+    max-width: 70%;
+    margin-left: 82px;
+}
+
+.logo {
+    margin-top: 64px;
+}
+
+.logo>p {
+    color: white;
+    font-size: 16px;
+    display: inline;
+}
+
+.vector {
+    margin-left: 62.44%;
+    margin-right: 28.55%;
+}
+
+.aspas-duplas {
+    font-size: 96px;
+    color: #00DAF7;
+    position: relative;
+    top: 30px;
+}
+
+.descricao {
+    margin-top: 80px;
+    color: white;
+}
+
+.artigo {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.autor {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.l-invertido {
+    display: block;
+    margin-left: auto;
+}
+
+.circulo {
+    left: -10;
+    bottom: 0;
+    position: absolute;
+
+}
