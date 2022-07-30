@@ -6,8 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="./fonts/Inter-Regular.woff">
     <title>Complete seu perfil!</title>
 </head>
+<style>
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+</style>
 
 <body>
     <section class="esquerda">
@@ -45,7 +57,9 @@
                 <h4>Bank verification number (BVN)</h4>
             </section>
             <section class="card">
-                <p>090912345567</p>
+                <form action="/Bank-verification-number" method="post">
+                    <input type="number" class="placeholder" id="number" placeholder="090912345567" />
+                </form>
             </section>
             <img class="check" src="./Imagens/Circle-Check.svg">
             <section class="finish">

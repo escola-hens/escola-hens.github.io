@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 * {
     margin: 0;
     padding: 0px;
@@ -47,7 +49,8 @@
     font-size: 96px;
     color: #00DAF7;
     position: relative;
-    top: 30px;
+    top: 80px;
+    font-family: 'Gayathri';
 }
 
 .descricao {
@@ -99,6 +102,10 @@
     margin-left: -70px;
 }
 
+.back:hover {
+    cursor: pointer;
+}
+
 .verification {
     margin-top: -18px;
 }
@@ -136,6 +143,12 @@
 }
 
 .card {
+    background-color: #ffffff;
+    width: 16%;
+    display: inline-block;
+}
+
+.card input {
     margin-top: 14px;
     padding: 22px;
     padding-top: 30px;
@@ -148,20 +161,20 @@
 }
 
 .card:hover {
-    border: 1px solid #1565D8;
+    border: 0px solid #1565D8;
     background: #F5F9FF;
     cursor: pointer;
 }
 
-.card p {
-    margin-top: -10px;
-    color: #494949;
-    line-height: 17px;
+.placeholder {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
 }
 
 .check {
     display: inline-block;
-    margin-left: -50px;
+    margin-left: 265px;
 }
 
 .finish {
@@ -188,9 +201,14 @@
 .security {
     margin-top: 29px;
     margin-left: 100px;
+    display: inline-block;
 }
 
 .security p {
     display: inline-block;
     color: #8692A6;
+}
+
+.security:hover {
+    cursor: pointer;
 }
