@@ -167,12 +167,6 @@
     font-size: 14px;
 }
 
-.card:hover {
-    border: 0px solid #1565D8;
-    background: #F5F9FF;
-    cursor: pointer;
-}
-
 .placeholder {
     width: 100%;
     padding: 12px 20px;
