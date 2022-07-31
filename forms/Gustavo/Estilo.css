@@ -88,21 +88,27 @@
     margin-top: 75px;
 }
 
-.back p {
+.return {
     display: inline-block;
     color: #8692A6;
+    margin-left: -50px;
+    background: none;
+    border-color: transparent;
+}
+
+.return p {
     width: 39px;
     height: 19px;
     font-weight: 600;
-    margin-left: -50px;
+    font-size: 16px;
 }
 
-.seta-back {
+.seta {
     float: left;
-    margin-left: -70px;
+    margin-left: -15px;
 }
 
-.back:hover {
+.return:hover {
     cursor: pointer;
 }
 
@@ -158,6 +164,7 @@
     box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
     border-radius: 6px;
     display: inline-block;
+    font-size: 14px;
 }
 
 .card:hover {
@@ -177,36 +184,31 @@
     margin-left: 265px;
 }
 
-.finish {
-    background: #1565D8;
-    border-radius: 6px;
-    width: 415px;
-    height: 64px;
-    margin-top: 94px;
-}
-
-.finish:hover {
-    border: 0px solid #076eff;
-    background: #006aff;
-    cursor: pointer;
-}
-
-.finish p {
+.button {
     display: inline-block;
     color: white;
-    margin-left: 150px;
+    background: #1565D8;
     margin-top: 23px;
+    margin-top: 94px;
+    width: 415px;
+    height: 64px;
+    border-radius: 6px;
+    border-color: #1565D8;
+    font-size: 16px;
 }
 
 .security {
-    margin-top: 29px;
-    margin-left: 100px;
+    margin-top: 8px;
+    margin-left: 60px;
     display: inline-block;
+    background: none;
+    border-color: transparent;
 }
 
 .security p {
     display: inline-block;
     color: #8692A6;
+    font-size: 12px;
 }
 
 .security:hover {
