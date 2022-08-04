@@ -6,8 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="./fonts/Inter-Regular.woff">
     <title>Complete seu perfil!</title>
 </head>
+<style>
+    .button:hover {
+        border: 0px solid #076eff;
+        background: #006aff;
+        cursor: pointer;
+    }
+
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+</style>
 
 <body>
     <section class="esquerda">
@@ -32,10 +50,13 @@
     <section class="direita">
         <section class="container-right">
             <section class="back">
-                <img class="seta-back" src="./Imagens/Back.svg" alt="Seta De back">
-                <p>Back</p>
+                <form action="/Voltar-Site" method="post">
+                    <button class="return"><img class="seta" src="./Imagens/Back.svg" />
+                        <p>Back</p>
+                    </button>
+                </form>
             </section>
-            <section class="verification">
+            <section class=" verification">
                 <p>STEP 03/03</p>
                 <h1>Bank Verification</h1>
             </section>
@@ -45,18 +66,24 @@
                 <h4>Bank verification number (BVN)</h4>
             </section>
             <section class="card">
-                <p>090912345567</p>
+                <input type="number" class="placeholder" id="number" placeholder="090912345567" minlength="12"
+                    maxlength="12" />
+                </form>
             </section>
             <img class="check" src="./Imagens/Circle-Check.svg">
-            <section class="finish">
-                <p>Save & Continue</p>
+            <section>
+                <form action="/Site-Seguinte" method="post">
+                    <button class="button">Save & Continue</button>
+                </form>
             </section>
             <section class="security">
-                <img src="./Imagens/cadeado.svg">
-                <p>Your Info is safely secured</p>
+                <form action="/segurança" method="post">
+                    <button class="security"> <img class="cadeado" src="./Imagens/cadeado.svg" />
+                        <p>Your Info is safely secured</p>
+                    </button>
+                </form>
             </section>
         </section>
-    </section>
     </section>
 </body>
 

@@ -1,3 +1,5 @@
+@import url('https://rsms.me/inter/inter.css');
+
 * {
     margin: 0;
     padding: 0px;
@@ -29,7 +31,7 @@
 }
 
 .logo {
-    margin-top: 64px;
+    padding-top: 64px;
 }
 
 .logo>p {
@@ -39,19 +41,20 @@
 }
 
 .vector {
-    margin-left: 62.44%;
-    margin-right: 28.55%;
+    padding-left: 62.44%;
+    padding-right: 28.55%;
 }
 
 .aspas-duplas {
     font-size: 96px;
     color: #00DAF7;
     position: relative;
-    top: 30px;
+    top: 80px;
+    font-family: 'Gayathri';
 }
 
 .descricao {
-    margin-top: 37px;
+    padding-top: 37px;
     width: 473px;
     color: white;
 }
@@ -62,7 +65,7 @@
 }
 
 .autor {
-    margin-top: 22px;
+    padding-top: 22px;
     font-size: 16px;
     line-height: 22px;
     display: inline-block;
@@ -85,18 +88,28 @@
     margin-top: 75px;
 }
 
-.back p {
+.return {
     display: inline-block;
     color: #8692A6;
+    margin-left: -50px;
+    background: none;
+    border-color: transparent;
+}
+
+.return p {
     width: 39px;
     height: 19px;
     font-weight: 600;
-    margin-left: -50px;
+    font-size: 16px;
 }
 
-.seta-back {
+.seta {
     float: left;
-    margin-left: -70px;
+    margin-left: -15px;
+}
+
+.return:hover {
+    cursor: pointer;
 }
 
 .verification {
@@ -105,17 +118,17 @@
 
 .verification p {
     line-height: 17px;
-    margin-left: 500px;
+    padding-left: 500px;
     color: #BDBDBD;
 }
 
 .verification h1 {
-    margin-left: 460px;
+    padding-left: 460px;
     color: #8692A6;
 }
 
 .profile {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .profile h1 {
@@ -131,11 +144,17 @@
 }
 
 .profile h4 {
-    margin-top: 40px;
+    padding-top: 40px;
     color: #696F79;
 }
 
 .card {
+    background-color: #ffffff;
+    width: 16%;
+    display: inline-block;
+}
+
+.card input {
     margin-top: 14px;
     padding: 22px;
     padding-top: 30px;
@@ -145,52 +164,46 @@
     box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
     border-radius: 6px;
     display: inline-block;
+    font-size: 14px;
 }
 
-.card:hover {
-    border: 1px solid #1565D8;
-    background: #F5F9FF;
-    cursor: pointer;
-}
-
-.card p {
-    margin-top: -10px;
-    color: #494949;
-    line-height: 17px;
+.placeholder {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
 }
 
 .check {
     display: inline-block;
-    margin-left: -50px;
+    padding-left: 265px;
 }
 
-.finish {
-    background: #1565D8;
-    border-radius: 6px;
-    width: 415px;
-    height: 64px;
-    margin-top: 94px;
-}
-
-.finish:hover {
-    border: 0px solid #076eff;
-    background: #006aff;
-    cursor: pointer;
-}
-
-.finish p {
+.button {
     display: inline-block;
     color: white;
-    margin-left: 150px;
-    margin-top: 23px;
+    background: #1565D8;
+    margin-top: 94px;
+    width: 415px;
+    height: 64px;
+    border-radius: 6px;
+    border-color: #1565D8;
+    font-size: 16px;
 }
 
 .security {
-    margin-top: 29px;
-    margin-left: 100px;
+    padding-top: 8px;
+    padding-left: 60px;
+    display: inline-block;
+    background: none;
+    border-color: transparent;
 }
 
 .security p {
     display: inline-block;
     color: #8692A6;
+    font-size: 12px;
+}
+
+.security:hover {
+    cursor: pointer;
 }
