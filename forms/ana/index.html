@@ -72,7 +72,7 @@
         }
 
         input,
-        select {
+        select[name="residence"] {
             display: block;
             width: 390px;
             height: 48px;
@@ -81,6 +81,7 @@
             border-radius: 6px;
             margin-top: 14px;
             max-width: 390px;
+            
         }
 
         button {
@@ -94,16 +95,18 @@
             font-weight: 500;
         }
 
-        .seguranca p {
+        .seguranca>p {
             display: inline-block;
             color: #8692A6;
             font-size: 12px;
+
 
         }
 
         .seguranca {
             padding-top: 20px;
             padding-bottom: 40px;
+            text-align: center;
 
         }
 
@@ -115,9 +118,18 @@
 
         .phone {
             background: url("imagens/bandeira.svg") no-repeat scroll 15px 15px;
-          
-          
+            box-sizing: border-box;
+            padding-left: 45px;
+
+
         }
+
+        select[name="ddd"]{
+            border: none;
+            background-color: transparent;
+        }
+
+       
     </style>
 </head>
 
@@ -177,11 +189,22 @@
             <p class="subtitulo">For the purpose of industry
                 regulation, your details are required.</p>
 
-            <label>
-                Phone number
-            </label>
+            <div class="vector">
 
-            <input class="phone" type="number" name="phone" id="">
+
+                <label>
+                    Phone number
+                </label>
+
+                <input class="phone" type="number" name="phone" id="">
+
+                <select name="ddd">
+                    
+                    <option value="third">+234</option>
+
+                </select>
+
+            </div>
 
             <label>
                 Your address
