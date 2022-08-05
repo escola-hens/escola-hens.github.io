@@ -6,78 +6,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="pag.css" rel="stylesheet">
+
     <style>
-        @import url('https://rsms.me/inter/inter.css');
-
-        html {
-            font-family: 'inter';
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        .left {
-            background-color: rgba(21, 101, 216, 0.9);
-            width: 45%;
-            height: 100vh;
-            float: left;
-            color: white;
-            background:
-                linear-gradient(rgba(21, 101, 216, 0.9), rgba(0, 0, 0, 0.9)),
-                url('../imagens/background.jpeg');
-            background-repeat: no-repeat;
-            background-size: cover;
-
-        }
-
         .right {
-            width: 55%;
-            background-color: rgb(250, 250, 219);
-            height: 100vh;
-            float: left;
-
-
-        }
-
-        .logo {
-            margin-top: 64px;
-            margin-left: 82px;
-        }
-
-        .logo>p {
-            display: inline-block;
-            color: white;
-        }
-
-        .descricao {
-            margin-left: 82px;
-            margin-top: 150px;
-            padding-right: 111px;
-        }
-
-        .aspas {
-            font-family: 'Gayathri';
-
-             font-size: 96px;
-            font-style: bold;
-            color: #00DAF7;
             position: relative;
-            top: 40px;
+            background-color: white;
 
         }
 
-        .autor {
-            margin-top: 10px;
+        .back {
+            color: #8692A6;
             display: inline-block;
+
+
         }
 
-        .canto {
+        .info {
+
             display: block;
-            margin-top: 35px;
-            margin-left: auto;
-            padding-right: 111px;
+            margin-top: 78px;
+            margin-left: 70px;
+            position: absolute;
+            right: 107px;
+            top: 8px;
+
+        }
+
+        .titulo {
+            font-size: normal;
+            padding-top: 99px;
+
+        }
+
+        .subtitulo {
+            color: #8692A6;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+
+        .step {
+            color: #BDBDBD;
+            font-size: 14px;
+            line-height: 17px;
+
+        }
+
+        .residency {
+            color: #8692A6;
+            font-size: 16px;
+        }
+
+        .topo {
+            padding-top: 74px;
+            padding-left: 53px;
+            padding-right: 91px;
+
+        }
+
+        .formulario {
+            padding-left: 127px;
+            padding-right: 220px;
+            display: block;
+
+        }
+
+        input,
+        select {
+            display: block;
+            width: 390px;
+            height: 48px;
+            margin-bottom: 20px;
+            border: 1px solid #8692A6;
+            border-radius: 6px;
+            margin-top: 14px;
+            max-width: 390px;
+        }
+
+        button {
+            background-color: #1565D8;
+            color: white;
+            display: block;
+            width: 100%;
+            height: 48px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .seguranca p {
+            display: inline-block;
+            color: #8692A6;
+            font-size: 12px;
+
+        }
+
+        .seguranca {
+            padding-top: 20px;
+            padding-bottom: 40px;
+
+        }
+
+        label {
+            color: #696F79;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .phone {
+            background: url("imagens/bandeira.svg") no-repeat scroll 15px 15px;
+          
+          
         }
     </style>
 </head>
@@ -91,20 +130,84 @@
             <p>Oasis</p>
 
         </section>
+
         <section class="descricao">
+
             <p class="aspas">
                 “ </p>
+
             <p>The passage experienced a surge in popularity during
                 the 1960s when Letraset used it on their dry-transfer
                 sheets, and again during the 90s as desktop publishers
                 bundled the text with their software .
             </p>
+
             <p class="autor">Vincent Obi</p>
+
+
             <img src="../imagens/circle_check.svg" alt="">
+
         </section>
+
         <img class="canto" src="../imagens/canto.svg" alt="">
+
     </section>
-    <section class="right">right</section>
+
+
+    <section class="right">
+        <section class="topo">
+
+            <img src="./imagens/back.svg" alt="icon botao back">
+
+            <p class="back">Back</p>
+
+            <section class="info">
+
+                <p class="step">STEP 02/03</p>
+
+                <p class="residency">Residency Info.</p>
+
+            </section>
+        </section>
+
+        <section class="formulario">
+            <h1 class="titulo">
+                Complete Your Profile!</h1>
+
+            <p class="subtitulo">For the purpose of industry
+                regulation, your details are required.</p>
+
+            <label>
+                Phone number
+            </label>
+
+            <input class="phone" type="number" name="phone" id="">
+
+            <label>
+                Your address
+            </label>
+
+            <input type="text" name="address" id="">
+
+            <label for="residence">
+                Country of residence
+            </label>
+
+            <select type="text" name="residence" id="residence"></select>
+
+            <button>
+                Save & Continue
+            </button>
+
+            <section class="seguranca">
+
+                <img src="./imagens/lock.svg" alt="">
+                <p>Your Info is safely secured</p>
+
+            </section>
+        </section>
+
+
 
 </body>
 
