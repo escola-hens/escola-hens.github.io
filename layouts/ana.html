@@ -84,6 +84,21 @@
             background-color: aqua;
             top: 10px;
         }
+
+        nav>p {
+            background-color: red;
+            border-bottom: 2px solid black;
+            display: inline-block;
+            margin-top: 15px;
+            margin-left: 20px;
+            padding: 5px;
+
+        }
+
+        nav>.inline {
+            display: inline-block;
+
+        }
     </style>
 </head>
 
@@ -92,8 +107,17 @@
 
 
     <nav>
-        appbar
+        <p>Home</p>
+        <p>Projetos</p>
+        <p>Contrate</p>
     </nav>
+
+    <nav>
+        <img width="46" class="inline" src="https://cdn-icons-png.flaticon.com/512/83/83675.png" alt="">
+        <section class="inline">Projetos</section>
+        <input class="inline" type="text">
+    </nav>
+
 
     <sidebar>
         sidebar
