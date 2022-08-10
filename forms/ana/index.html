@@ -81,7 +81,7 @@
             border-radius: 6px;
             margin-top: 14px;
             max-width: 390px;
-            
+
         }
 
         button {
@@ -119,17 +119,31 @@
         .phone {
             background: url("imagens/bandeira.svg") no-repeat scroll 15px 15px;
             box-sizing: border-box;
-            padding-left: 45px;
-
+            padding-left: 131px;
+            display: inline-block;
 
         }
 
-        select[name="ddd"]{
+        select[name="ddd"] {
             border: none;
             background-color: transparent;
+            color: #8692A6;
+            position: absolute;
+            left: 50px;
+            bottom: 34px;
+
         }
 
-       
+        .input-container {
+            display: inline-block;
+            position: relative;
+        }
+
+        select[name="residence"] {
+            padding-left: 30px;
+            color: #8692A6;
+
+        }
     </style>
 </head>
 
@@ -196,15 +210,23 @@
                     Phone number
                 </label>
 
-                <input class="phone" type="number" name="phone" id="">
+                <div class="input-container">
 
-                <select name="ddd">
-                    
-                    <option value="third">+234</option>
+                    <input class="phone" type="number" name="phone" id="">
 
-                </select>
+                    <select name="ddd">
+
+                        <option value="third">+234</option>
+
+                    </select>
+                </div>
+
+
+
 
             </div>
+
+
 
             <label>
                 Your address
@@ -216,7 +238,10 @@
                 Country of residence
             </label>
 
-            <select type="text" name="residence" id="residence"></select>
+            <select type="text" name="residence" id="residence">
+
+                <option>Please select</option>
+            </select>
 
             <button>
                 Save & Continue
