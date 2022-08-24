@@ -47,6 +47,11 @@ footer {
     font-size: 72px;
     letter-spacing: 12px;
     color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 5px solid #4a0072;
+    margin: 15px 0px 15px 0px;
+    display: inline-block;
 }
 
 nav>div>a {
